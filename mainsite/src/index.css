@@ -68,7 +68,7 @@ a:hover {
   background-size: cover;
 }
 
-.about-area, .port-area, .service-area, .contact-area {
+.about-area, .capa-area, .indi-area, .contact-area {
   position: relative;
   display: flex;
   justify-content: space-around;
