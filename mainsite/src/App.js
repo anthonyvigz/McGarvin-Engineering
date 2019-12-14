@@ -22,6 +22,7 @@ function App() {
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
+        <h2>PRECISION<br/> SHEET METAL<br/> FABRICATION</h2>
       </div>
         <Home />
         <About />
