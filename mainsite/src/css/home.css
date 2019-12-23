@@ -35,11 +35,13 @@
     height: 140px;
     margin-left: 30px;
     font-family: 'Exo 2', sans-serif;
+    flex: 0 1 auto;
 
   }
 
 .navbar img {
   width: 185px;
+  min-width: 185px;
 }
 
 /* fixed navbar */
