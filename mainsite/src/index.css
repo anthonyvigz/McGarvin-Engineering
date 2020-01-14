@@ -19,7 +19,7 @@ body {
 }
 
 
-.homescreen {
+.homeBlock {
   position: relative;
   background-image: url('./img/factory2-home-slider-bg.jpg');
   width: 100%;

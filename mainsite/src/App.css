@@ -7,3 +7,14 @@
   pointer-events: none;
 }
 
+
+.position-absolute {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.w-100 {
+  width: 100%;
+}

@@ -6,7 +6,7 @@ function About() {
         <div className="about-area" id="about">
             <div className="text-part">
               <h1>About Area</h1>
-              <p>blah</p>
+              <p>asdasdasdasd</p>
             </div>
           </div>
     )
