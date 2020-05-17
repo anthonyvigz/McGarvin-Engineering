@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Exo+2:600,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Exo&display=swap");
+
+.bannerBlock {
+  position: absolute;
+  background-color: rgba(81, 115, 155, 0.8);
+  z-index: 1;
+  width: 50%;
+  height: 100%;
+  -webkit-animation: appear 1s;
+  animation: appear 1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}

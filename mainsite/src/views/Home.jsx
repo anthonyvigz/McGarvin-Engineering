@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../img/mainlog.png';
 import { Spring } from 'react-spring/renderprops';
 
 

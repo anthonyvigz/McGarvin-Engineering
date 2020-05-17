@@ -1,25 +1,29 @@
-import React from 'react';
+import React, { useState } from "react";
+import logo from "../img/mainlog.png";
+import "../css/navbar.scss";
 
 function NavBar() {
-    return (
-        <Spring
-            from={{ opacity: 0 }}
-            to={{ opacity: 1 }}
-            delay='600'>
-            {props => <div style={props}>
-            <div className="navbar">
-        <img src={logo} alt="logo" />
-        <ul className="nav">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#capabilities">Capabilities</a></li>
-            <li><a href="#industries">Industries</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        </div>
-            </div>}
-        </Spring>
-    )
+  const [top, setNav] = useState(true);
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY < 1) {
+      setNav(true);
+    } else {
+      setNav(false);
+    }
+  });
+  return (
+    <div className={top ? "navBarHome" : "navBarHome movingNav"}>
+      <img src={logo} alt="logo" />
+      <nav className="links">
+        <a href="/">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#capabilities">CAPABILITIES</a>
+        <a href="#industries">INDUSTRIES</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
+    </div>
+  );
 }
 
 export default NavBar;
