@@ -1,24 +1,70 @@
 @import url("https://fonts.googleapis.com/css?family=Exo+2:600,800&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Exo&display=swap");
 
-.bannerBlock {
-  position: absolute;
-  background-color: rgba(81, 115, 155, 0.8);
-  z-index: 1;
-  width: 50%;
-  height: 100%;
-  -webkit-animation: appear 1s;
-  animation: appear 1s;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
+.homeBlock {
+  background-image: url("../img/factory2-home-slider-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  -webkit-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0;
 
-  h2 {
-    font-family: Exo;
-    letter-spacing: 1px;
-    font-weight: 1000;
-    color: rgba(255, 255, 255, 0.89);
-    position: relative;
-    top: 120px;
-    left: 120px;
+  .bannerBlock {
+    position: fixed;
+    background-color: rgba(81, 115, 155, 0.8);
+    width: 50%;
+    height: 800px;
+    -webkit-animation: appear 1s;
+    animation: appear 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    background-attachment: fixed;
+
+    .banner {
+      margin-top: 90px;
+      display: flex;
+      margin-left: 150px;
+      flex-direction: column;
+
+      h2 {
+        font-family: Exo;
+        letter-spacing: 1px;
+        font-weight: 1000;
+        color: rgba(255, 255, 255, 0.89);
+      }
+
+      button {
+        background-color: rgb(142, 86, 58);
+        font-family: exo;
+        cursor: pointer;
+        letter-spacing: 1px;
+        font-weight: 400;
+        border-color: rgba(255, 255, 255, 0);
+        margin: 0px;
+        border-radius: 0px;
+        padding: 11px 27px;
+        color: rgb(255, 255, 255);
+        transition: 0.5s;
+        outline: none;
+      }
+
+      button:hover {
+        background-color: rgb(165, 101, 69);
+        transition: 0.5s;
+        border-color: rgba(255, 255, 255, 0.103);
+      }
+
+      p {
+        font-family: exo;
+        line-height: 23px;
+        letter-spacing: 0px;
+        font-weight: 500;
+        font-size: 16px;
+        color: rgb(220, 234, 244);
+      }
+    }
   }
 }
