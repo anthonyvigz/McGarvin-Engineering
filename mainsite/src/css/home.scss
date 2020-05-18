@@ -11,4 +11,14 @@
   animation: appear 1s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
+
+  h2 {
+    font-family: Exo;
+    letter-spacing: 1px;
+    font-weight: 1000;
+    color: rgba(255, 255, 255, 0.89);
+    position: relative;
+    top: 120px;
+    left: 120px;
+  }
 }

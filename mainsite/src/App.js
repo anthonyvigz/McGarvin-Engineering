@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import Home from "./views/Home";
 import About from "./views/About";
 import Capabilities from "./views/Capabilities";
