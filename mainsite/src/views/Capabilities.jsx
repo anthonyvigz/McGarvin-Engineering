@@ -1,15 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../css/capabilities.scss";
 import img1 from "../img/fac1.png";
 import img2 from "../img/fac2.png";
 import img3 from "../img/fac3.png";
 import img4 from "../img/fac4.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Capabilities() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
     <div className="capa-area">
       <div className="capaBlocks">
-        <div className="cBlock">
+        <div data-aos="fade-up" className="cBlock">
           <img src={img3} alt="img3" />
           <h4>Materials We Work</h4>
           <ul>
@@ -29,7 +35,7 @@ function Capabilities() {
             </li>
           </ul>
         </div>
-        <div className="cBlock">
+        <div data-aos="fade-up" className="cBlock">
           <img src={img1} alt="img1" />
           <h4 id="capabilities">Capabilities</h4>
           <ul>
@@ -46,7 +52,7 @@ function Capabilities() {
             <li>Rework off the shelf parts</li>
           </ul>
         </div>
-        <div className="cBlock">
+        <div data-aos="fade-up" className="cBlock">
           <img src={img2} alt="img2" />
           <h4>Additional Services</h4>
           <ul>
