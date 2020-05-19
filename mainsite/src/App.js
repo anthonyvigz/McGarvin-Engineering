@@ -5,9 +5,13 @@ import Capabilities from "./views/Capabilities";
 import Industries from "./views/Industries";
 import Contact from "./views/Contact";
 import NavBar from "./views/NavBar";
+import useWindowDimensions from "./helpers/WindowSize";
 import "./css/home.scss";
 
 function App() {
+  // width of window from window component
+  const { width, height } = useWindowDimensions();
+
   return (
     <>
       <NavBar />
