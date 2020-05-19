@@ -5,6 +5,7 @@
   height: 100vh;
   margin: 0;
   padding: 0;
+  padding-top: 55px;
 
   .aboutBlock {
     display: flex;
@@ -19,6 +20,7 @@
     }
 
     .aboutText {
+      padding-top: 55px;
       width: 40%;
       h1 {
         font-size: 50px;

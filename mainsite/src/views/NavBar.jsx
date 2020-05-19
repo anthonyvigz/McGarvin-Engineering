@@ -13,7 +13,7 @@ function NavBar() {
     }
   });
   return (
-    <div className={top ? "navBarHome" : "navBarHome movingNav"}>
+    <div className={top ? "navBarHome" : "movingNav"}>
       <img src={logo} alt="logo" />
       <nav className="links">
         <a href="#">HOME</a>
