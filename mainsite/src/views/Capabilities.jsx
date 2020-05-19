@@ -13,7 +13,7 @@ function Capabilities() {
   }, []);
 
   return (
-    <div className="capa-area">
+    <div id="capabilities" className="capa-area">
       <div className="capaBlocks">
         <div data-aos="fade-up" className="cBlock">
           <img src={img3} alt="img3" />
@@ -37,7 +37,7 @@ function Capabilities() {
         </div>
         <div data-aos="fade-up" className="cBlock">
           <img src={img1} alt="img1" />
-          <h4 id="capabilities">Capabilities</h4>
+          <h4>Capabilities</h4>
           <ul>
             <li>CNC Punching</li>
             <li>CNC Forming</li>

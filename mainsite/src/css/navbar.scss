@@ -171,4 +171,60 @@
       transform: translateX(20%);
     }
   }
+
+  button {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+
+    i {
+      color: white;
+      font-size: 2.3em;
+    }
+  }
+}
+
+.mobileLanNav {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: fixed;
+  width: 200px;
+  right: 0;
+  top: 0;
+  background-color: #191919;
+  transition: 0.5s;
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+
+    #contactButton {
+      width: 60%;
+      margin: 35px auto;
+    }
+
+    a {
+      color: rgba(255, 255, 255, 0.637);
+      border-bottom: 1px solid rgba(207, 204, 204, 0.15);
+      width: 100%;
+      padding-right: 25px;
+      text-decoration: none;
+      letter-spacing: 1px;
+      padding: 25px;
+    }
+
+    a:hover {
+      color: white;
+    }
+  }
 }
