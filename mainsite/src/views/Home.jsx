@@ -3,11 +3,11 @@ import useWindowDimensions from "../helpers/WindowSize";
 
 function Home() {
   // width of window from window component
-  const { width } = useWindowDimensions();
+  const { width, height } = useWindowDimensions();
 
   return (
-    <div className="homeBlock">
-      <div className="bannerBlock">
+    <div className="home">
+      <div style={{ height: height + 200 }} className="bannerBlock">
         <div className="banner">
           <h2
             style={{

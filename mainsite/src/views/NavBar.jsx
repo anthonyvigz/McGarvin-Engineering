@@ -6,7 +6,7 @@ function NavBar() {
   const [top, setNav] = useState(true);
 
   window.addEventListener("scroll", () => {
-    if (window.scrollY < 1) {
+    if (window.scrollY < 150) {
       setNav(true);
     } else {
       setNav(false);

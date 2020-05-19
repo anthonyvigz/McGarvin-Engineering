@@ -9,14 +9,14 @@ import "./css/home.scss";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <NavBar />
       <Home />
       <About />
       <Capabilities />
       <Industries />
       <Contact />
-    </div>
+    </>
   );
 }
 
