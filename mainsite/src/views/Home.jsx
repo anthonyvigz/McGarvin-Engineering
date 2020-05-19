@@ -1,13 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import useWindowDimensions from "../helpers/WindowSize";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Home() {
   // width of window from window component
   const { width, height } = useWindowDimensions();
 
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
     <div className="home">
-      <div style={{ height: height + 200 }} className="bannerBlock">
+      <div
+        data-aos="fade-right"
+        style={{ height: height + 200 }}
+        className="bannerBlock"
+      >
         <div className="banner">
           <h2
             style={{

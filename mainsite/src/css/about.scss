@@ -6,7 +6,78 @@
   margin: 0;
   padding: 0;
 
-  h1 {
-    margin: 0;
+  .aboutBlock {
+    display: flex;
+    padding-top: 100px;
+    padding-left: 100px;
+    justify-content: space-between;
+
+    img {
+      width: 400px;
+      height: 100%;
+      margin-right: 100px;
+    }
+
+    .aboutText {
+      width: 40%;
+      h1 {
+        font-size: 50px;
+        line-height: 60px;
+        font-weight: 400;
+        letter-spacing: 0px;
+        color: #6383aa;
+        font-family: "Exo 2", Arial, Tahoma, sans-serif;
+      }
+      p {
+        padding: 0;
+        border: 0;
+        font-size: 110%;
+        letter-spacing: 1px;
+        line-height: 28px;
+        font-family: "Exo 2", Arial, Tahoma, sans-serif;
+        vertical-align: baseline;
+        color: #fff;
+      }
+    }
+  }
+
+  .custService {
+    margin: 25px auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.918);
+    border: solid #6383aa 4px;
+    box-shadow: 3px 12px 5px -6px rgba(0, 0, 0, 0.75);
+
+    h3 {
+      margin-top: 0;
+      text-align: center;
+      font-size: 30px;
+      background-color: rgb(142, 86, 58);
+      line-height: 60px;
+      font-weight: 400;
+      letter-spacing: 0px;
+      color: white;
+      font-family: "Exo 2", Arial, Tahoma, sans-serif;
+    }
+
+    p {
+      text-align: center;
+      padding: 0 15px 25px 15px;
+      border: 0;
+      font-size: 110%;
+      letter-spacing: 1px;
+      line-height: 28px;
+      font-family: "Exo 2", Arial, Tahoma, sans-serif;
+      vertical-align: baseline;
+      color: rgba(0, 0, 0, 0.849);
+      margin: 0;
+
+      span {
+        color: #154a8b;
+        font-size: 120%;
+      }
+    }
   }
 }
