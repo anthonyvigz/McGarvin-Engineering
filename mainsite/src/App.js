@@ -5,6 +5,7 @@ import Capabilities from "./views/Capabilities";
 import Industries from "./views/Industries";
 import Contact from "./views/Contact";
 import NavBar from "./views/NavBar";
+import Footer from "./views/Footer";
 import useWindowDimensions from "./helpers/WindowSize";
 import "./css/home.scss";
 
@@ -20,6 +21,7 @@ function App() {
       <Capabilities />
       <Industries />
       <Contact />
+      <Footer />
     </>
   );
 }

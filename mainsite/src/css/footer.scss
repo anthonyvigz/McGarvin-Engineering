@@ -1,0 +1,22 @@
+.footer {
+  height: 65px;
+  background-image: url("https://themes.muffingroup.com/be/factory2/wp-content/uploads/2019/06/factory2-footerbg.jpg");
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.609);
+  align-items: center;
+  justify-content: center;
+
+  h5 {
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+  }
+
+  h6 {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+  }
+}

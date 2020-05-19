@@ -1,0 +1,192 @@
+.contact-area {
+  background-image: url(https://themes.muffingroup.com/be/factory2/wp-content/uploads/2019/06/factory2-sectionbg1.jpg);
+  background-repeat: repeat;
+  background-position: center top;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 100px;
+
+  .mainBlock {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+
+    .contactForm {
+      width: 400px;
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      outline: none;
+      margin: 25px;
+      font-family: "Exo 2", Arial, Tahoma, sans-serif;
+
+      input {
+        background: none;
+        border: none;
+        border-bottom: grey solid 3px;
+        font-family: "Exo 2", Arial, Tahoma, sans-serif;
+        font-size: 1em;
+        padding: 10px;
+        margin-bottom: 25px;
+        transition: 0.5s;
+        color: white;
+      }
+
+      input::placeholder {
+        padding: 15px;
+        outline: none;
+        font-family: "Exo 2", Arial, Tahoma, sans-serif;
+        transition: 0.5s;
+      }
+
+      input:focus {
+        outline: none;
+        border-bottom: solid 3px #94bcec;
+        color: #94bcec;
+        transition: 0.5s;
+      }
+
+      input:hover {
+        cursor: text;
+        transition: 0.5s;
+      }
+
+      textarea {
+        background: none;
+        border: none;
+        border-bottom: grey solid 3px;
+        font-family: "Exo 2", Arial, Tahoma, sans-serif;
+        font-size: 1em;
+        padding: 10px;
+        transition: 0.5s;
+        color: white;
+        resize: none;
+      }
+
+      textarea::placeholder {
+        font-family: "Exo 2", Arial, Tahoma, sans-serif;
+        padding: 0 15px;
+        transition: 0.5s;
+      }
+
+      textarea:focus {
+        outline: none;
+        border-bottom: solid 3px #94bcec;
+        transition: 0.5s;
+      }
+
+      button {
+        background-color: rgba(81, 116, 155, 0.979);
+        color: white;
+        font-family: "Exo 2", Arial, Tahoma, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4px 10px;
+        width: 300px;
+        margin: 50px auto;
+        border: none;
+        font-size: 1.1em;
+        transition: 0.5s;
+        letter-spacing: 1.5px;
+        margin-right: 50px;
+        cursor: pointer;
+
+        i {
+          font-size: 1.5em;
+          padding: 5px;
+          margin-left: 15px;
+          transition: 0.5s;
+        }
+      }
+
+      button:hover {
+        transition: 0.5s;
+        background-color: rgba(31, 91, 160, 0.849);
+
+        i {
+          transition: 0.5s;
+          transform: translateX(20%);
+        }
+      }
+    }
+
+    .contactInfo {
+      display: flex;
+      flex-direction: column;
+
+      h5 {
+        margin: 0;
+        font-family: "Exo 2", Arial, Tahoma, sans-serif;
+        color: #94bcec;
+        font-size: 33px;
+        line-height: 51px;
+        letter-spacing: 0px;
+        font-weight: 400;
+      }
+
+      img {
+        margin-left: -18px;
+      }
+
+      p {
+        padding: 0;
+        border: 0;
+        font-size: 110%;
+        letter-spacing: 1px;
+        line-height: 28px;
+        font-family: "Exo 2", Arial, Tahoma, sans-serif;
+        vertical-align: baseline;
+        color: #fff;
+      }
+
+      .contactIcon {
+        display: flex;
+        align-items: center;
+        margin: 0;
+        margin-bottom: 15px;
+
+        i {
+          color: #94bcec;
+          font-size: 1.9em;
+        }
+
+        h6 {
+          padding: 0;
+          border: 0;
+          font-size: 110%;
+          letter-spacing: 1px;
+          font-family: "Exo 2", Arial, Tahoma, sans-serif;
+          vertical-align: baseline;
+          color: #fff;
+          margin: 15px;
+        }
+
+        .bothEmails {
+          display: flex;
+          flex-direction: column;
+
+          a {
+            padding: 0;
+            border: 0;
+            font-size: 120%;
+            letter-spacing: 1px;
+            font-family: "Exo 2", Arial, Tahoma, sans-serif;
+            vertical-align: baseline;
+            color: #fff;
+            margin: 0;
+            margin-left: 15px;
+            text-decoration: none;
+            transition: 0.5s;
+          }
+
+          a:hover {
+            color: #94bcec;
+            transition: 0.5s;
+          }
+        }
+      }
+    }
+  }
+}
