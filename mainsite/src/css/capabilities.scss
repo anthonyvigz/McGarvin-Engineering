@@ -1,6 +1,6 @@
 .capa-area {
   background-color: rgba(2, 42, 117, 0.678);
-  padding-top: 200px;
+  padding-top: 250px;
   padding-bottom: 100px;
   margin-bottom: 0;
 
@@ -8,6 +8,8 @@
     display: flex;
     justify-content: center;
     font-family: "MicroSquare";
+    margin-top: 25px;
+    margin-bottom: 50px;
 
     .cBlock {
       display: flex;
@@ -46,6 +48,40 @@
             }
           }
         }
+      }
+    }
+  }
+
+  .qualControl {
+    margin-bottom: -175px;
+    width: 30%;
+    margin-left: 50%;
+    display: flex;
+    min-width: 400px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f7f7;
+    border: solid #6383aa 4px;
+    box-shadow: 3px 12px 5px -6px rgba(0, 0, 0, 0.75);
+
+    h3 {
+      color: rgb(142, 86, 58);
+      font-size: 2em;
+      margin: 0;
+      padding: 7px;
+      padding-bottom: 0;
+      font-family: "Exo 2", Arial, Tahoma, sans-serif;
+    }
+
+    p {
+      font-family: "Exo 2", Arial, Tahoma, sans-serif;
+      padding: 0 15px;
+      text-align: center;
+      line-height: 20px;
+
+      span {
+        color: #154a8b;
       }
     }
   }

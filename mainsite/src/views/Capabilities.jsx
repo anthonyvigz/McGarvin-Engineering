@@ -65,6 +65,18 @@ function Capabilities() {
           </ul>
         </div>
       </div>
+      <div data-aos="flip-down" className="qualControl">
+        <h3>Quality Control</h3>
+        <p>
+          McGarvin Engineering is{" "}
+          <span>
+            committed to continuous improvement and customer satisfaction.
+          </span>{" "}
+          Our Quality Objectives are two fold: To improve the percentages of our
+          on-time deliveries and to work with our customers to help reduce
+          defects and improve conformance.
+        </p>
+      </div>
     </div>
   );
 }
