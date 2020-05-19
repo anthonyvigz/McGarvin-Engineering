@@ -20,8 +20,10 @@ function NavBar() {
         <a href="#about">ABOUT</a>
         <a href="#capabilities">CAPABILITIES</a>
         <a href="#industries">INDUSTRIES</a>
-        <a href="#contact">CONTACT</a>
       </nav>
+      <a id="contactButton" href="#contact">
+        CONTACT <i className="fas fa-arrow-right"></i>
+      </a>
     </div>
   );
 }

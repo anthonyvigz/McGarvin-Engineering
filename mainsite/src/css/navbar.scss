@@ -49,6 +49,40 @@
       left: 0px;
     }
   }
+
+  #contactButton {
+    background-color: rgba(81, 116, 155, 0.979);
+    color: white;
+    font-family: "MicroSquare";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 15px;
+    border: none;
+    font-size: 1.1em;
+    transition: 0.5s;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    margin-right: 50px;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+
+    i {
+      padding: 5px;
+      transition: 0.5s;
+    }
+  }
+
+  #contactButton:hover {
+    transition: 0.5s;
+    background-color: rgba(31, 91, 160, 0.849);
+
+    i {
+      transition: 0.5s;
+      transform: translateX(20%);
+    }
+  }
 }
 
 .movingNav {
